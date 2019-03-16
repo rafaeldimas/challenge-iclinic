@@ -21,7 +21,7 @@ class Question extends PureComponent {
       id: this.props.id || '',
       question: this.props.question || '',
       answer: this.props.answer || '',
-      answered: this.props.answered || true,
+      answered: this.props.answered || false,
       userAnswer: '',
     })
   }
