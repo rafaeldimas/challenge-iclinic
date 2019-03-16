@@ -1,9 +1,15 @@
-import React from 'react';
+import React, { Fragment } from 'react';
+import Quiz from './components/Quiz';
 
+import { Reset, Base } from './styles/global';
 
 const App = () => (
-  <div className="App">
-  </div>
+  <Fragment>
+    <Reset/>
+    <Base/>
+    <Quiz/>
+  </Fragment>
 );
-
+  
 export default App;
+  
